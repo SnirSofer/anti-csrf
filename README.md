@@ -14,6 +14,7 @@ There aren't any good session-powered CSRF prevention libraries. By good we mean
   * A particular session
   * A particular HTTP URI
   * A particular IP address (optional)
+  * A particular User Agent (optional)
 * Multiple CSRF tokens can be stored
 * CSRF tokens expire after one use
 * An upper limit on the number of tokens stored with session data is enforced
